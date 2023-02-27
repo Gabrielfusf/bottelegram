@@ -1,6 +1,6 @@
 const Telegrambot = require('node-telegram-bot-api');
 
-const token = '5230284420:AAEI6uk1H490zlJb-g2j7nzxDGrU31XZP-E';
+const token = '';
 
 const bot = new Telegrambot(token, {polling: true});
 
@@ -39,7 +39,7 @@ if(texto == '3'){
 
 else{
     
-    const msg2 = 'Voce nao é a Drielli';
+    const msg2 = 'Voce';
     bot.sendMessage(chatId, msg2)
 }
 }
